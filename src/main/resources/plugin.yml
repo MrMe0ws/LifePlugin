@@ -1,0 +1,20 @@
+name: LifePlugin
+version: ${project.version}
+main: com.meows.lifeplugin.LifePlugin
+api-version: 1.21
+commands:
+  lifepluginreload:
+    description: Перезагрузить конфигурацию плагина LifePlugin
+    usage: /lifepluginreload
+    permission: lifeplugin.reload
+  lifeplugin:
+    description: Установить количество жизней для игрока
+    usage: /lifeplugin life <player> <lives>
+    permission: lifeplugin.setlives
+  checklife:
+    description: Проверить количество жизней игрока
+    usage: /checklife
+    permission: lifeplugin.checklife
+  giftlife:
+    description: Позволяет игрокам дарить свои жизни.
+    usage: /giftlife <ник>
