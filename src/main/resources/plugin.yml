@@ -2,6 +2,9 @@ name: LifePlugin
 version: ${project.version}
 main: com.meows.lifeplugin.LifePlugin
 api-version: 1.21
+author: MrMeows
+description: Плагин 2 хард жизни - после бан
+website: https://github.com/MrMe0ws
 commands:
   lifepluginreload:
     description: Перезагрузить конфигурацию плагина LifePlugin
